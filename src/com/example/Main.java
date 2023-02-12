@@ -34,7 +34,7 @@ public class Main {
 
         Person diala = new Person();
         diala.setId("*********");
-        diala.setName("Diala");
+        diala.setName("Diala Ayoub");
         diala.setAddress("Majdal shams");
         diala.setYearOfBirth(1995);
         diala.sayHello();
