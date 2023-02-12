@@ -22,7 +22,7 @@ public class Circle {
 
     public void printActualSize()
     {
-        System.out.format("the actual size of circle with radius %s is : %s \n" ,getRadius() , (getRadius()) * 2 * 3.14);
+        System.out.format("the actual size of circle with radius %s is : %s \n" ,this.radius , (this.radius) * 2 * 3.14);
     }
 
 

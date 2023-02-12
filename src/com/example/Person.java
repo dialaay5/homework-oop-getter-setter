@@ -44,7 +44,7 @@ public class Person {
         System.out.println("\nhello everyone");
     }
     public void printAllData() {
-        System.out.format("my name is %s, with Id number %s , I'am from %s, %s is my birthday year.", getName(), getId(), getAddress(), getYearOfBirth());
+        System.out.format("my name is %s, with Id number %s , I'am from %s, %s is my birthday year.", this.name, this.id, this.address, this.yearOfBirth);
     }
 
 }
